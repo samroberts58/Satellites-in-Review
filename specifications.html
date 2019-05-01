@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Satellites in Review</title>
+	<link rel="stylesheet" href="bootstrap.min.css" />
+	<link rel="stylesheet" type="text/css" href="style_sat.css" />
+</head>
+
+<body>
+	<div id="main">
+		<div id="header">
+			<div id="logo">
+				<div id="logo_text">
+					<h1>Satellites in Review</h1>
+					<h2>What's that blinking in the sky?</h2>
+				</div><!-- logo_text -->
+			</div><!-- logo -->
+		</div><!-- header -->
+		<div id="menubar">
+			<div class="dropdown">
+				<h3><img src="images/menu_btn.png" style="height:25px; width:25px"/> </h3>
+				<div class="menu">
+					<ul>
+					<li class="selected"><a href="index.html">Home</a></li>
+					<li><a href="countries.html">Countries</a></li>
+					<li><a href="specifications.html">Specifications</a></li>
+					<li><a href="trends.html">Trends</a></li>
+					<li><a href="about.html">About Me</a></li>
+					</ul>
+				</div><!-- menu -->
+			</div><!-- dropdown -->
+		</div><!-- menu_bar -->
+		<div id="site_content">
+			<div id="win1">
+				<h3>What's the Difference?</h3>
+
+				<button class="toggle active">Orbits</button>
+				<div id = "nested1" style="display:block">
+					<p>
+					</p>
+					<div id="chart-area1">
+					<script type='text/javascript' src='https://us-east-1.online.tableau.com/javascripts/api/viz_v1.js'></script><div class='tableauPlaceholder' style='width: 1200px; height: 550px;'><object class='tableauViz' width='1200' height='550' style='display:none;'><param name='host_url' value='https%3A%2F%2Fus-east-1.online.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='&#47;t&#47;sroberts' /><param name='name' value='DATS6401-FinalProject-SamanthaRoberts&#47;specsOrbit' /><param name='tabs' value='no' /><param name='toolbar' value='no' /><param name='showAppBanner' value='false' /><param name='filter' value='iframeSizedToWindow=true' /></object></div>
+					</div><!-- spec_chart1 -->
+					<div class="comments">
+						<h3>Orbit Styles</h3>
+						<p> Most satellites fall into the low Earth orbit (LEO) category. This orbit pattern is ideal for
+						Earth-focused operations as they fly much closer than the other orbiters.
+						<br/><br/>
+						Sun synchronous satellites rotate are often used for communications, weather forecasting, and ground observation. <br/><br/>
+						Polar satellites are used for imagery, earth-mapping, and global security operations.
+						<br/><br/>
+						<ul>
+							<li>LEO: 41%</li>
+							<li>Sun Synchronous: 47%</li>
+							<li>Polar: 20%</li>
+						</ul>			
+					</p>
+					</div><!-- comments -->
+				</div><!-- nested1 -->
+				<button class="toggle active">Purpose</button>
+				<div id = "nested2" style="display:block">
+					<p>				
+					</p>
+					<div id="chart-area2">
+					<script type='text/javascript' src='https://us-east-1.online.tableau.com/javascripts/api/viz_v1.js'></script><div class='tableauPlaceholder' style='width: 1200px; height: 550px;'><object class='tableauViz' width='1200' height='550' style='display:none;'><param name='host_url' value='https%3A%2F%2Fus-east-1.online.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='&#47;t&#47;sroberts' /><param name='name' value='DATS6401-FinalProject-SamanthaRoberts&#47;specsPurpose' /><param name='tabs' value='no' /><param name='toolbar' value='no' /><param name='showAppBanner' value='false' /><param name='filter' value='iframeSizedToWindow=true' /></object></div>
+					</div><!-- spec_chart2 -->
+					<div class="comments">
+						<h3>Use Cases</h3>
+						<p> The main categories that most share are communications, earth observation, and technology development. <br/><br/>
+						The top three countries account for a visibly larger portion of all satellites, with larger representative distributions
+						in each category. Within the top three, the United States and Russia appear to prioritize communications, while China
+						invests more in Earth Observation satellites.
+						<br/><br/>
+						<ul>
+							<li>Communications: 50%</li>
+							<li>Earth Observation: 25%</li>
+							<li>Tech Dev: 11%</li>
+						</ul>	
+						</p>
+					</div><!-- comments -->
+				</div><!-- nested2 -->
+				<button class="toggle active">Locations</button>
+				<div id = "nested3" style="display:block">	
+					<p>
+					</p>
+					<div id="chart-area3">
+					<script type='text/javascript' src='https://us-east-1.online.tableau.com/javascripts/api/viz_v1.js'></script><div class='tableauPlaceholder' style='width: 1200px; height: 550px;'><object class='tableauViz' width='1200' height='550' style='display:none;'><param name='host_url' value='https%3A%2F%2Fus-east-1.online.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='&#47;t&#47;sroberts' /><param name='name' value='DATS6401-FinalProject-SamanthaRoberts&#47;specsLaunchSite' /><param name='tabs' value='no' /><param name='toolbar' value='no' /><param name='showAppBanner' value='false' /><param name='filter' value='iframeSizedToWindow=true' /></object></div>
+					</div><!-- spec_chart3 -->
+					<div class="comments">
+						<h3>Launch Sites</h3>
+						<p> The number of launch sites maintained by a country can also show prevalence amongst competitors. <br/><br/>
+						Only 11% of countries listed in the data set had a launch site. Of the cohort, the United States has
+						the most launch sites and is tied with Kazakhstan for most satellites launched from a single site.
+						<br/><br/>
+						<ul>
+							<li>United States: 5</li>
+							<li>Russia: 4</li>
+							<li>China: 3</li>
+						</ul>	
+						</p>
+					</div><!-- comments -->
+				</div><!-- nested3 -->
+			</div><!-- win1 -->
+			<div id="footer">
+					DATS 6401 Visualization of Complex Data
+					<img src="images/sat.jpg" style="height:25px; width:25px"/>
+					Final Project
+					<img src="images/sat.jpg" style="height:25px; width:25px"/> 
+					<script>var d= new Date(); var dd= d.getDate(); var mm = d.getMonth()+1; var yyyy = d.getFullYear(); document.write(mm+'/'+dd+'/'+yyyy);</script> 
+				</div><!-- footer -->
+		</div><!-- site_content -->
+	</div><!-- main -->
+
+<script src="js/jquery-3.3.1.min.js"></script>
+<script type="text/javascript" src="js/script.js"></script>
+</body>
+</html>

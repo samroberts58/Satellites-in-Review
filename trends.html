@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Satellites in Review</title>
+	<link rel="stylesheet" href="bootstrap.min.css" />
+	<link rel="stylesheet" type="text/css" href="style_sat.css" />
+</head>
+
+<body>
+	<div id="main">
+		<div id="header">
+			<div id="logo">
+				<div id="logo_text">
+					<h1>Satellites in Review</h1>
+					<h2>What's that blinking in the sky?</h2>
+				</div><!-- logo_text -->
+			</div><!-- logo -->
+		</div><!-- header -->
+		<div id="menubar">
+			<div class="dropdown">
+				<h3><img src="images/menu_btn.png" style="height:25px; width:25px"/> </h3>
+				<div class="menu">
+					<ul>
+					<li class="selected"><a href="index.html">Home</a></li>
+					<li><a href="countries.html">Countries</a></li>
+					<li><a href="specifications.html">Specifications</a></li>
+					<li><a href="trends.html">Trends</a></li>
+					<li><a href="about.html">About Me</a></li>
+					</ul>
+				</div><!-- menu -->
+			</div><!-- dropdown -->
+		</div><!-- menu_bar -->
+		<div id="site_content">
+			<div id="win1">
+				<h3>What's Been Happening?</h3>
+				<button class="toggle active">Type</button>
+				<div id = "nested1" style="display:block">
+					<p>
+					</p>
+					<div id="chart-area1">
+					<script type='text/javascript' src='https://us-east-1.online.tableau.com/javascripts/api/viz_v1.js'></script><div class='tableauPlaceholder' style='width: 1200px; height: 550px;'><object class='tableauViz' width='1200' height='550' style='display:none;'><param name='host_url' value='https%3A%2F%2Fus-east-1.online.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='&#47;t&#47;sroberts' /><param name='name' value='DATS6401-FinalProject-SamanthaRoberts&#47;trendsPurpose' /><param name='tabs' value='no' /><param name='toolbar' value='no' /><param name='showAppBanner' value='false' /><param name='filter' value='iframeSizedToWindow=true' /></object></div>
+					</div><!-- spec_chart1 -->
+					<div class="comments">
+						<h3>Satellite Type</h3>
+						<p> Communication satellites appear to be a predominantly US investment, with Russia and
+							China beginning to contribute more this catgeory in only the last ten years.
+						<br/><br/>
+							Earth observation has grown in popularity in the last 10-15 years. This is where China
+							shows it's growing dominance, with steeper increases than that of Russia or the US.
+						<br/><br/>
+							Russia doesn't dominate any particular category. It has made significant improvements
+							in Communications and Navigation/Global Positioning. The latter is not an overly popular
+							category with any of the countries, but it may be the closest Russia has to matching the two
+							other countries in a single category.		
+					</p>
+					</div><!-- comments -->
+				</div><!-- nested1 -->
+				<button class="toggle active">Industry</button>
+				<div id = "nested2" style="display:block">
+					<p>				
+					</p>
+					<div id="chart-area2">
+					<script type='text/javascript' src='https://us-east-1.online.tableau.com/javascripts/api/viz_v1.js'></script><div class='tableauPlaceholder' style='width: 1200px; height: 550px;'><object class='tableauViz' width='1200' height='550' style='display:none;'><param name='host_url' value='https%3A%2F%2Fus-east-1.online.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='&#47;t&#47;sroberts' /><param name='name' value='DATS6401-FinalProject-SamanthaRoberts&#47;trendsUsers' /><param name='tabs' value='no' /><param name='toolbar' value='no' /><param name='showAppBanner' value='false' /><param name='filter' value='iframeSizedToWindow=true' /></object></div>
+					</div><!-- spec_chart2 -->
+					<div class="comments">
+						<h3>Industries</h3>
+						<p> The United States has significantly more commercial satellites than any other countries,
+							accounting for 31% overall.
+						<br/><br/>
+							China has 9% of the data set's satellites by government category and it has increased four times over from their first few years. 
+						<br/><br/>
+						Russia has the most diverse industrial uses rather than overstacking satellites in any one category. 
+						</p>
+					</div><!-- comments -->
+				</div><!-- nested2 -->
+				<button class="toggle active">Launches</button>
+				<div id = "nested3" style="display:block">
+					<p>
+					</p>
+					<div id="chart-area3">
+					<script type='text/javascript' src='https://us-east-1.online.tableau.com/javascripts/api/viz_v1.js'></script><div class='tableauPlaceholder' style='width: 1200px; height: 550px;'><object class='tableauViz' width='1200' height='550' style='display:none;'><param name='host_url' value='https%3A%2F%2Fus-east-1.online.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='&#47;t&#47;sroberts' /><param name='name' value='DATS6401-FinalProject-SamanthaRoberts&#47;specsLaunchDates' /><param name='tabs' value='no' /><param name='toolbar' value='no' /><param name='showAppBanner' value='false' /><param name='filter' value='iframeSizedToWindow=true' /></object></div>
+					</div><!-- spec_chart3 -->
+					<div class="comments">
+						<h3>Launch History</h3>
+						<p> The United States is far and above the other two countries in the late 90's; however,
+						the gap closes over the next two decades.
+						<br/><br/>
+							China was able to overtake the United States in 2010 and 2011, but was unable to sustain
+							the growth over the following years.
+						<br/><br/>
+							Russia outperformed the United States in 2015 as well. They also have a sharper increased
+							trend line than the other two countries and less volatility.
+						</p>
+					</div><!-- comments -->
+				</div><!-- nested3 -->
+			</div><!-- win1 -->
+			<div id="footer">
+					DATS 6401 Visualization of Complex Data
+					<img src="images/sat.jpg" style="height:25px; width:25px"/>
+					Final Project
+					<img src="images/sat.jpg" style="height:25px; width:25px"/> 
+					<script>var d= new Date(); var dd= d.getDate(); var mm = d.getMonth()+1; var yyyy = d.getFullYear(); document.write(mm+'/'+dd+'/'+yyyy);</script> 
+				</div><!-- footer -->
+		</div><!-- site_content -->
+	</div><!-- main -->
+
+<script src="js/jquery-3.3.1.min.js"></script>
+<script type="text/javascript" src="js/script.js"></script>
+</body>
+</html>

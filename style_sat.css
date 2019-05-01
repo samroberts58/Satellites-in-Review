@@ -1,0 +1,308 @@
+html {
+	height: 100%;
+	width: 100%;
+}
+
+* {
+	margin: 0px;
+	padding: 0px;
+}
+
+body {
+	background: #e6e6ff;
+	color: #000;
+}
+
+
+h1 {
+	font: normal 400% 'Futura', 'Proxima nova', san-serif;
+	margin: 5px 0 0 0;
+	padding: 50px 0 0 0;
+	color: #fff;
+	text-align: center;
+}
+
+h2 {
+	font: normal 150% 'Futura', 'Proxima nova', san-serif;
+	margin: 0 0 0 0;
+	color: #ffff99;
+	text-align: center;
+}
+
+h3 {
+	font: normal 150% 'Futura', 'Proxima nova', san-serif;
+	margin: 0 0 10px 5px;
+	padding: 0 0 5px 0;
+	color: #000;
+}	
+
+
+h4, h5, h6 {
+	font: normal 110% 'Futura', 'Proxima nova', san-serif;
+	margin: 0 0 10px 5px;
+	padding: 0 0 5px 0;
+	color: #555;
+}
+
+
+a {
+	outline: none;
+	color: #3385ff;
+	text-decoration: underline;
+}
+
+a:hover {
+	text-decoration: none;
+}
+
+ul {
+	font-size: 110%;
+	margin: 0 0 20px 10px;
+	list-style-position: inside;
+	list-style-type: none;
+}
+
+li {
+	list-style-type: none;
+	margin: 0 0 10px 0;
+	padding: 5px 0 5px 0;
+	font: normal 100% 'Futura', 'Proxima Nova', sans-serif;
+}
+
+p {
+	font-size: 120%;
+	margin: 50px 20px 20px 50px;
+	padding: 5px 0 5px 0;
+	line-height: 1.2em;
+	float: center;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+#main {
+	height: 100%;
+	width: 100%;
+	position: center;
+	font: normal 120% 'Futura', 'Proxima Nova' sans-serif;
+	background: #e6e6ff;
+	color: #000;
+}
+}
+
+#header {
+	width: 100%;
+	position: center;
+	text-align: center;
+}
+
+#logo {
+	width: 100%;
+	position: relative;
+	height: 200px;
+	margin: -10px 0 0 0;
+	background: url(images/earth.jpg) no-repeat;
+	background-size: cover;
+}
+
+#menubar {
+	width: 100%; /*1950px*/
+	height: 20px;
+	padding: 5px 0 10px 0;
+	margin: -35px 0 10px 10px;
+	position: relative;
+	z-index: 1;
+	float: left;
+	cursor: pointer;
+	
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+  color: #000;
+  height: 30px;
+  width: 30px;
+}
+
+.dropdown:hover .menu {
+  display: block;
+  text-decoration: none;
+  background-color: #e6e6ff;
+}
+
+.menu {
+  display: none;
+  position: absolute;
+  min-width: 120px;
+  margin: -20px 0 0 6px;
+  padding: 12px 16px 0 5px;
+  z-index: 1;
+  color: #000;
+  background: #eee;
+  height: 200px;
+  width: 125px;
+  font: normal 120%;
+}
+
+
+.menu ul {
+	float: left;
+	padding: 0 0 0 10px;
+	height: 40px;
+	width: 120px;
+	position: relative;
+    display: inline-block;
+	list-style: none;
+	list-style-type: circle;
+	font: normal 120%;
+}
+
+.menu a {
+  display: block;
+  color: #000;
+  text-decoration: none;
+
+}
+
+.menu a:hover {
+	text-decoration: underline;
+	color: #9999ff;
+}
+
+
+#site_content {
+	width: 100%;
+	min-height: 600px;
+	overflow: hidden;
+	background: #f8f8f8;
+	
+}
+
+#win1 {
+	width: 100%;
+	overflow: hidden;
+	background: #f8f8f8;
+	margin: 50px;
+}
+
+#nested1, #nested2, #nested3 {
+	background-color: #fff;
+	height: 600px;
+	width: 1800px;
+	margin: -40px 0 10px 0;
+}
+
+#chart-area1, #chart-area2, #chart-area3 {
+	height: 600px;
+	width: 1200px;
+	float: left;
+}
+
+#chart-area1_1 {
+	height: 600px;
+	width: 600px;
+	float: left;
+}
+
+#chart-area1_2 {
+	height: 600px;
+	width: 600px;
+	float: right;
+}
+
+#chart-area1 {
+	margin: -30px 0 0 0;
+}
+
+#chart-area1_1 {
+	margin: -30px 0 0 0;
+}
+
+#chart-area1_2 {
+	margin: -545px 200px 0 0;
+}
+
+#chart-area2 {
+	margin: 20px 0 0 0;
+}
+
+#country_chart {
+	margin: 0 0 0 60px;
+	float:center;
+}
+.comments {
+		float: right;
+		background: #cccccc;
+		width: 400px;
+		height: 475px;
+		margin: 60px 175px 0 0;
+		padding: 0 0 0 50px;
+		text-align: left;
+}
+
+.comments1 {
+		float: center;
+		background: #cccccc;
+		width: 400px;
+		height: 475px;
+		margin: 60px 0px 0 600px;
+		padding: 0 0 0 50px;
+		text-align: left;
+}
+
+.comments h3, .comments1 h3 {
+	margin: 30px 0 0 0;
+}
+
+.comments p, .comments1 p {
+	margin: 20px 0 0 0;
+	font: normal 200%;
+	}
+	
+
+.toggle {
+  background-color: #e6e6ff;
+  border: 5px;
+  border-color: #9999ff;
+  color: black;
+  cursor: pointer;
+  margin: 5px;
+  height: 50px;
+  width: 110px;
+  text-align: center;
+  outline: none;
+  font: normal 'Futura', 'Proxima Nova' sans-serif;
+  font-size: 17px;
+}
+
+.active, .toggle:hover {
+  background-color: #d6e6ff;
+}
+
+.content {
+  padding: 0 18px;
+  display: none;
+  overflow: hidden;
+  background-color: #f1f1f1;
+}
+
+#close p {
+	float: left;
+}
+#footer {
+	width: 100%;
+	height: 35px;
+	padding: 20px 0 4px 0;
+	text-align: center;
+	background: #f8f8f8;
+	color: #aaa;
+	border-top: 5px solid #fff;
+	letter-spacing: 0.2em;
+	text-transform: uppercase;
+	font-size: 120%;
+}

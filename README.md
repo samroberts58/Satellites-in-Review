@@ -1,11 +1,13 @@
 # Satellites-in-Review
 Samantha Roberts <br/>
-George Washington University
+George Washington University <br/>
+[![DOI](https://zenodo.org/badge/184447225.svg)](https://zenodo.org/badge/latestdoi/184447225)
 
 ## Introduction
 
 The objective of this project is to identify competitors involved in satellite operations as they relate to Earth-focused missions. Differences between the factors, including owners/operators and satellite types are studied singularly and jointly to establish a multidimensional perspective on the status of satellite ownership and usage globally. 
 
+The presentation is viewable at https://samroberts58.github.io/Satellites-in-Review/.
 
 ## Data Set
 The data set for this project is "Active Satellites in Orbit Around Earth" and posted by Union of Concerned Scientists on www.Kaggle.com (https://www.kaggle.com/ucsusa/active-satellites). 

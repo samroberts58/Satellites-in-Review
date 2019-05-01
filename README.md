@@ -16,7 +16,7 @@ The refined data set contained 1,397 rows and 22 variables.
 ## Project Design & Requirements
 - Python 3.6 was used for data preprocessing to handle null values and remove unneeded variables.
 - Excel was used for initial exploratory data analysis (EDA) and descriptive statistics reporting.
-- Tableau visualizations were created for presentation visuals.
+- Tableau visualizations were created for presentation.
 - HTML, CSS, and JavaScript (JS) were created to host the Tableau visuals in a web-based format.
 
 * A user must sign into a Tableau Online account in order to view the Tableau graphs and charts embedded in the presentation framework.
